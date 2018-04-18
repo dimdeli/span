@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>StringTest</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.10.14, OS=Windows 10.0.15063.966 (1703/CreatorsUpdate/Redstone2)
+Intel Core i7-7820HQ CPU 2.90GHz (Kaby Lake), 1 CPU, 8 logical and 4 physical cores
+Frequency=2835940 Hz, Resolution=352.6168 ns, Timer=TSC
+.NET Core SDK=2.1.104
+  [Host] : .NET Core 2.0.6 (CoreCLR 4.6.26212.01, CoreFX 4.6.26212.01), 64bit RyuJIT  [AttachedDebugger]
+  Core   : .NET Core 2.0.6 (CoreCLR 4.6.26212.01, CoreFX 4.6.26212.01), 64bit RyuJIT
+</code></pre>
+<pre><code>Job=Core  Runtime=Core  
+</code></pre>
+
+<table>
+<thead><tr><th>     Method</th><th>                                  Inputs</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Median</th><th>Gen 0</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>SafeTrimStart</td><td>?</td><td>1.750 ns</td><td>0.0533 ns</td><td>0.0445 ns</td><td>1.748 ns</td><td>-</td><td>0 B</td>
+</tr><tr><td>SafeTrimStartSpan</td><td>?</td><td>3.179 ns</td><td>0.1153 ns</td><td>0.2302 ns</td><td>3.068 ns</td><td>-</td><td>0 B</td>
+</tr><tr><td>SafeTrimStart</td><td>   The quick brown fox jumps over the lazy dog</td><td>58.023 ns</td><td>0.9866 ns</td><td>0.9229 ns</td><td>58.025 ns</td><td>0.0266</td><td>112 B</td>
+</tr><tr><td>SafeTrimStartSpan</td><td>   The quick brown fox jumps over the lazy dog</td><td>10.712 ns</td><td>0.0879 ns</td><td>0.0734 ns</td><td>10.681 ns</td><td>-</td><td>0 B</td>
+</tr><tr><td>SafeTrimStart</td><td>  foo bar</td><td>41.594 ns</td><td>0.4539 ns</td><td>0.4246 ns</td><td>41.462 ns</td><td>0.0095</td><td>40 B</td>
+</tr><tr><td>SafeTrimStartSpan</td><td>  foo bar</td><td>10.212 ns</td><td>0.1259 ns</td><td>0.1116 ns</td><td>10.237 ns</td><td>-</td><td>0 B</td>
+</tr></tbody></table>
+</body>
+</html>

@@ -1,0 +1,11 @@
+C:\Users\ddeligiorgis\Source\Repos\span_lab\Span_Lab\Span_Lab\bin\Debug\netcoreapp2.0\Span_Lab.deps.json
+C:\Users\ddeligiorgis\Source\Repos\span_lab\Span_Lab\Span_Lab\bin\Debug\netcoreapp2.0\Span_Lab.runtimeconfig.json
+C:\Users\ddeligiorgis\Source\Repos\span_lab\Span_Lab\Span_Lab\bin\Debug\netcoreapp2.0\Span_Lab.runtimeconfig.dev.json
+C:\Users\ddeligiorgis\Source\Repos\span_lab\Span_Lab\Span_Lab\bin\Debug\netcoreapp2.0\Span_Lab.dll
+C:\Users\ddeligiorgis\Source\Repos\span_lab\Span_Lab\Span_Lab\bin\Debug\netcoreapp2.0\Span_Lab.pdb
+C:\Users\ddeligiorgis\Source\Repos\span_lab\Span_Lab\Span_Lab\obj\Debug\netcoreapp2.0\Span_Lab.csprojResolveAssemblyReference.cache
+C:\Users\ddeligiorgis\Source\Repos\span_lab\Span_Lab\Span_Lab\obj\Debug\netcoreapp2.0\Span_Lab.csproj.CoreCompileInputs.cache
+C:\Users\ddeligiorgis\Source\Repos\span_lab\Span_Lab\Span_Lab\obj\Debug\netcoreapp2.0\Span_Lab.AssemblyInfoInputs.cache
+C:\Users\ddeligiorgis\Source\Repos\span_lab\Span_Lab\Span_Lab\obj\Debug\netcoreapp2.0\Span_Lab.AssemblyInfo.cs
+C:\Users\ddeligiorgis\Source\Repos\span_lab\Span_Lab\Span_Lab\obj\Debug\netcoreapp2.0\Span_Lab.dll
+C:\Users\ddeligiorgis\Source\Repos\span_lab\Span_Lab\Span_Lab\obj\Debug\netcoreapp2.0\Span_Lab.pdb

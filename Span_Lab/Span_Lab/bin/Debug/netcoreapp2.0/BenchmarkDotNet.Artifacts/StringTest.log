@@ -1,0 +1,13 @@
+// ***** BenchmarkRunner: Start   *****
+// Found benchmarks:
+//   StringTest.SafeTrimStart: Core(Runtime=Core) [Inputs=?]
+//   StringTest.SafeTrimStartSpan: Core(Runtime=Core) [Inputs=?]
+//   StringTest.SafeTrimStart: Core(Runtime=Core) [Inputs=   The quick brown fox jumps over the lazy dog]
+//   StringTest.SafeTrimStartSpan: Core(Runtime=Core) [Inputs=   The quick brown fox jumps over the lazy dog]
+//   StringTest.SafeTrimStart: Core(Runtime=Core) [Inputs=  foo bar]
+//   StringTest.SafeTrimStartSpan: Core(Runtime=Core) [Inputs=  foo bar]
+
+// Validating benchmarks:
+Assembly Span_Lab which defines benchmarks is non-optimized
+Benchmark was built without optimization enabled (most probably a DEBUG configuration). Please, build it in RELEASE.
+// * Artifacts cleanup *
